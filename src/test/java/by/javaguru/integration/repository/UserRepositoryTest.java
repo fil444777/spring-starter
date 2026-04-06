@@ -11,12 +11,44 @@ import spring.database.repository.UserRepository;
 import java.time.LocalDate;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.filter;
 import static org.junit.jupiter.api.Assertions.*;
 
 @IT
 @RequiredArgsConstructor
 public class UserRepositoryTest {
     private final UserRepository userRepository;
+
+    @Test
+    void checkPageableAllBy() {
+        var pageable = PageRequest.of(0, 2, Sort.by("birthDate"));
+        var page = userRepository.findAllByRole(Role.ADMIN, pageable);
+
+        page.forEach(u -> System.out.println(u.getFirstname() + " "
+                + u.getLastname()
+                + " " + u.getBirthDate()));
+    }
+
+    @Test
+    void checkPageableBirthDate() {
+        var pageable = PageRequest.of(0, 2, Sort.by("birthDate"));
+        var page = userRepository.findFirst4By(pageable);
+        page.forEach(u -> System.out.println(u.getFirstname() + " "
+                + u.getLastname()
+                + " " + u.getBirthDate()));
+    }
+
+    @Test
+    void checkPageableFIO() {
+        var pageable = PageRequest.of(0, 2, Sort.by("firstname")
+                .and(Sort.by("lastname")));
+        var page = userRepository.findFirst4By(pageable);
+        page.forEach(u -> System.out.println(u.getFirstname() + " "
+                + u.getLastname()
+                + " " + u.getBirthDate()));
+    }
+
+    // Сверху три теста для задания
 
     @Test
     void findAllAdminsBornBetween1980And1990Test() {

@@ -23,6 +23,10 @@ import java.util.Optional;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 
+    Page<User> findAllByRole(Role role, Pageable pageable);
+
+    Page<User> findFirst4By(Pageable pageable);
+
     Page<User> findAllBy(Pageable pageable);
 
     List<User> findFirst3By(Sort sort);
@@ -53,7 +57,4 @@ public interface UserRepository extends JpaRepository<User, Long> {
             @Param("startDate") LocalDate startDate,
             @Param("endDate") LocalDate endDate);
 
-    @Modifying
-    @Query("DELETE FROM User u WHERE u.company.id = :companyId")
-    int deleteAllByCompanyId(@Param("companyId") Integer companyId);
 }
