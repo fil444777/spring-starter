@@ -1,0 +1,57 @@
+2026-04-06T19:03:48.483+03:00  INFO 1724 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:03:48.932+03:00  INFO 1724 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:03:48.932+03:00  INFO 1724 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:04:27.268+03:00  INFO 12440 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:04:27.681+03:00  INFO 12440 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:04:27.682+03:00  INFO 12440 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:11:20.436+03:00  INFO 7100 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:11:20.892+03:00  INFO 7100 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:11:20.893+03:00  INFO 7100 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:11:21.291+03:00  WARN 7100 --- [Test worker] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-06T19:11:21.292+03:00  WARN 7100 --- [Test worker] org.hibernate.orm.jdbc.error             : ОШИБКА: update or delete on table "company" violates foreign key constraint "users_company_id_fkey" on table "users"
+  Подробности: Key (id)=(3) is still referenced from table "users".
+2026-04-06T19:12:13.298+03:00  INFO 18224 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:12:13.789+03:00  INFO 18224 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:12:13.789+03:00  INFO 18224 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:12:41.361+03:00  INFO 14924 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:12:41.815+03:00  INFO 14924 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:12:41.816+03:00  INFO 14924 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:12:42.230+03:00  WARN 14924 --- [Test worker] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-06T19:12:42.232+03:00  WARN 14924 --- [Test worker] org.hibernate.orm.jdbc.error             : ОШИБКА: update or delete on table "company" violates foreign key constraint "users_company_id_fkey" on table "users"
+  Подробности: Key (id)=(3) is still referenced from table "users".
+2026-04-06T19:18:03.484+03:00  INFO 12080 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:18:03.977+03:00  INFO 12080 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:18:03.977+03:00  INFO 12080 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:18:04.346+03:00  WARN 12080 --- [Test worker] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-06T19:18:04.347+03:00  WARN 12080 --- [Test worker] org.hibernate.orm.jdbc.error             : ОШИБКА: update or delete on table "users" violates foreign key constraint "payment_receiver_id_fkey" on table "payment"
+  Подробности: Key (id)=(4) is still referenced from table "payment".
+2026-04-06T19:18:48.162+03:00  INFO 5940 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:18:48.650+03:00  INFO 5940 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:18:48.651+03:00  INFO 5940 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:18:49.040+03:00  WARN 5940 --- [Test worker] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-06T19:18:49.042+03:00  WARN 5940 --- [Test worker] org.hibernate.orm.jdbc.error             : ОШИБКА: update or delete on table "users" violates foreign key constraint "payment_receiver_id_fkey" on table "payment"
+  Подробности: Key (id)=(4) is still referenced from table "payment".
+2026-04-06T19:24:09.777+03:00  INFO 6632 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:24:10.259+03:00  INFO 6632 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:24:10.260+03:00  INFO 6632 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:24:10.663+03:00  WARN 6632 --- [Test worker] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-06T19:24:10.664+03:00  WARN 6632 --- [Test worker] org.hibernate.orm.jdbc.error             : ОШИБКА: update or delete on table "users" violates foreign key constraint "users_chat_user_id_fkey" on table "users_chat"
+  Подробности: Key (id)=(4) is still referenced from table "users_chat".
+2026-04-06T19:36:23.089+03:00  INFO 7988 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:36:23.543+03:00  INFO 7988 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:36:23.544+03:00  INFO 7988 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:36:23.958+03:00  WARN 7988 --- [Test worker] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-06T19:36:23.959+03:00  WARN 7988 --- [Test worker] org.hibernate.orm.jdbc.error             : ОШИБКА: update or delete on table "company" violates foreign key constraint "users_company_id_fkey" on table "users"
+  Подробности: Key (id)=(3) is still referenced from table "users".
+2026-04-06T19:48:15.543+03:00  INFO 16228 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:48:16.017+03:00  INFO 16228 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:48:16.017+03:00  INFO 16228 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:48:16.441+03:00  WARN 16228 --- [Test worker] org.hibernate.orm.jdbc.error             : HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-06T19:48:16.442+03:00  WARN 16228 --- [Test worker] org.hibernate.orm.jdbc.error             : ОШИБКА: update or delete on table "company" violates foreign key constraint "users_company_id_fkey" on table "users"
+  Подробности: Key (id)=(3) is still referenced from table "users".
+2026-04-06T19:51:34.366+03:00  INFO 1300 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:51:34.860+03:00  INFO 1300 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:51:34.860+03:00  INFO 1300 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:52:04.047+03:00  INFO 9324 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:52:04.544+03:00  INFO 9324 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-04-06T19:52:04.544+03:00  INFO 9324 --- [Test worker] s.d.repository.pool.ConnectionPool       : Init connection pool
