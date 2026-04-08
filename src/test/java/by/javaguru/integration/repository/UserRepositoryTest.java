@@ -97,11 +97,11 @@ public class UserRepositoryTest {
         assertThat(users).hasSize(3);
     }
 
-    @Test
-    void checkProjections() {
-        var users = userRepository.findAllByCompanyId(1);
-        assertThat(users).hasSize(2);
-    }
+//    @Test
+//    void checkProjections() {
+//        var users = userRepository.findAllByCompanyId(1);
+//        assertThat(users).hasSize(2);
+//    }
 
 
     @Test

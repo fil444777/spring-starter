@@ -43,6 +43,7 @@ public class User implements BaseEntity<Long> {
             orphanRemoval = true)
     private List<UserChat> userChats = new ArrayList<>();
 
+    @Builder.Default
     @OneToMany(
             mappedBy = "receiver",
             cascade = CascadeType.REMOVE,

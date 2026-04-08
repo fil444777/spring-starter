@@ -35,6 +35,7 @@ public class Company implements BaseEntity<Integer>{
     @Column(name = "description")
     private Map<String, String> locales = new HashMap<>();
 
+    @Builder.Default
     @OneToMany(
             mappedBy = "company",
             cascade = CascadeType.REMOVE,
