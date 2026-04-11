@@ -26,7 +26,7 @@ public class UserServiceIT {
     @Test
     void findAll() {
         List<UserReadDto> result = userService.findAll();
-        assertThat(result).hasSize(5);
+        assertThat(result).hasSize(4);
     }
 
     @Test
@@ -40,6 +40,7 @@ public class UserServiceIT {
     void create() {
         UserCreateEditDto userDto = new UserCreateEditDto(
                 "test@gmail.com",
+                "1234",
                 LocalDate.now(),
                 "Test",
                 "Test",
@@ -60,6 +61,7 @@ public class UserServiceIT {
     void update() {
         UserCreateEditDto userDto = new UserCreateEditDto(
                 "test@gmail.com",
+                "1234",
                 LocalDate.now(),
                 "Test",
                 "Test",

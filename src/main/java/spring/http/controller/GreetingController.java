@@ -2,6 +2,7 @@ package spring.http.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import spring.database.entity.Role;
@@ -21,16 +22,19 @@ public class GreetingController {
         return Arrays.asList(Role.values());
     }
 
-    @GetMapping("/hello/{id}")
-    public ModelAndView hello(ModelAndView mv, CompanyRepository companyRepository,
-                              HttpServletRequest request,
-                              @RequestParam("age") Integer age,
-                              @RequestHeader("accept") String accept,
-                              @CookieValue("JSESSIONID") String jsessionId,
-                              @PathVariable("id") Integer id) {
-        mv.setViewName("greeting/hello");
-//        mv.addObject("user", new UserReadDto(1L, "Sergey"));
-        return mv;
+    @GetMapping("/hello")
+    public String hello(Model model,
+                              UserReadDto userReadDto
+//                        ModelAndView mv, CompanyRepository companyRepository,
+//                        HttpServletRequest request,
+//                              @RequestParam("age") Integer age,
+//                              @RequestHeader("accept") String accept,
+//                              @CookieValue("JSESSIONID") String jsessionId,
+//                              @PathVariable("id") Integer id
+    ) {
+        model.addAttribute("user",
+                userReadDto);
+        return "greeting/hello";
     }
 
     @GetMapping("/bye")

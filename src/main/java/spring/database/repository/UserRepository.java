@@ -9,19 +9,25 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 import spring.database.entity.Role;
 import spring.database.entity.User;
 import spring.dto.IPersonalInfo;
 import spring.dto.PersonalInfo;
+import spring.dto.UserFilter;
 
 import java.time.LocalDate;
+import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface UserRepository extends JpaRepository<User, Long>,
+        FilterUserRepository, QuerydslPredicateExecutor<User> {
+
+    Optional<User> findByUsername(String username);
 
     Page<User> findAllByRole(Role role, Pageable pageable);
 
@@ -57,4 +63,5 @@ public interface UserRepository extends JpaRepository<User, Long> {
             @Param("startDate") LocalDate startDate,
             @Param("endDate") LocalDate endDate);
 
+    List<User> findAllByFilter(UserFilter filter);
 }
