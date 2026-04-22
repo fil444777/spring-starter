@@ -86,27 +86,22 @@ public class UserController {
                          BindingResult bindingResult,
                          RedirectAttributes redirectAttributes) {
         if (bindingResult.hasErrors()) {
-            // 🔍 Проверяем, есть ли ошибка именно в поле birthDate
             boolean hasAgeError = bindingResult.getFieldErrors("birthDate").stream()
                     .anyMatch(error -> error.getCode() != null && error.getCode().contains("MinAge"));
 
             if (hasAgeError) {
-                // ❌ Возраст < 18 → перенаправляем на страницу предупреждения
                 return "redirect:/users/underage-warning";
             }
 
-            // ❌ Другие ошибки валидации → возвращаем на форму регистрации
             redirectAttributes.addFlashAttribute("user", user);
             redirectAttributes.addFlashAttribute("errors", bindingResult.getAllErrors());
             return "redirect:/users/registration";
         }
 
-        // ✅ Всё ок → создаём пользователя
         UserReadDto dto = userService.create(user);
         return "redirect:/users/" + dto.getId();
     }
 
-    // 📄 Страница предупреждения (новый метод)
     @GetMapping("/underage-warning")
     public String underageWarning() {
         return "error/underage-warning";

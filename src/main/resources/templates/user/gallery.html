@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>User Gallery</title>
+</head>
+<body>
+
+<h2 th:text="'Gallery for ' + ${user.username}"></h2>
+
+<div style="margin-bottom: 20px;">
+  <a th:href="@{/users/{userId}(userId=${user.id})}">
+    Назад к пользователю
+  </a>
+</div>
+
+<form th:action="@{/users/{userId}/gallery/upload(userId=${user.id})}"
+      method="post"
+      enctype="multipart/form-data">
+  <label for="image">Add photo:</label>
+  <input id="image" type="file" name="image" accept="image/*">
+  <button type="submit">Upload</button>
+</form>
+
+<hr>
+
+<div th:if="${#lists.isEmpty(images)}">
+  <p>Фото пока нет.</p>
+</div>
+
+<div th:each="img : ${images}" style="margin-bottom: 20px;">
+  <div>
+    <img th:src="@{/users/{userId}/gallery/{imageId}/file(userId=${user.id},imageId=${img.id})}"
+         width="200"
+         alt="Gallery image">
+  </div>
+
+  <div>
+    <span th:text="${img.fileName}"></span>
+  </div>
+
+  <form th:action="@{/users/{userId}/gallery/{imageId}/delete(userId=${user.id},imageId=${img.id})}"
+        method="post"
+        style="display:inline-block;">
+    <button type="submit">Delete</button>
+  </form>
+
+  <form th:action="@{/users/{userId}/gallery/{imageId}/replace(userId=${user.id},imageId=${img.id})}"
+        method="post"
+        enctype="multipart/form-data"
+        style="display:inline-block; margin-left: 10px;">
+    <input type="file" name="image" accept="image/*">
+    <button type="submit">Replace</button>
+  </form>
+</div>
+
+</body>
+</html>

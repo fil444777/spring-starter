@@ -2,13 +2,11 @@ package spring.database.repository;
 
 import com.querydsl.jpa.impl.JPAQuery;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.criteria.Predicate;
 import lombok.RequiredArgsConstructor;
 import spring.database.entity.User;
 import spring.dto.QPredicates;
 import spring.dto.UserFilter;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static spring.database.entity.QUser.user;

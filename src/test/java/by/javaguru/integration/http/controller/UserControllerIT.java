@@ -1,19 +1,19 @@
 package by.javaguru.integration.http.controller;
 
+import spring.dto.UserCreateEditDto;
 import by.javaguru.annotation.IT;
 import lombok.RequiredArgsConstructor;
 import org.hamcrest.collection.IsCollectionWithSize;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.test.web.servlet.MockMvc;
-import spring.dto.UserCreateEditDto;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
+import static spring.dto.UserCreateEditDto.Fields.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-import static spring.dto.UserCreateEditDto.*;
-import static spring.dto.UserCreateEditDto.Fields.*;
-
 
 @IT
 @AutoConfigureMockMvc

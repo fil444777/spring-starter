@@ -32,6 +32,8 @@ public class User implements BaseEntity<Long> {
 
     private String lastname;
 
+    private String image;
+
     @Enumerated(EnumType.STRING)
     private Role role;
 
@@ -44,6 +46,13 @@ public class User implements BaseEntity<Long> {
             cascade = CascadeType.REMOVE,
             orphanRemoval = true)
     private List<UserChat> userChats = new ArrayList<>();
+
+
+    @Builder.Default
+    @OneToMany(mappedBy = "user",
+            cascade = CascadeType.REMOVE,
+            orphanRemoval = true)
+    private List<UserImage> userImages = new ArrayList<>();
 
     @Builder.Default
     @OneToMany(

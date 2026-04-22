@@ -43,3 +43,6 @@ spring:
       show_sql: true
       format_sql: true
       hdm2ddl.auto: validate
+app:
+  image:
+    bucket: C:\Users\user\IdeaProjects\spring-starter\image
