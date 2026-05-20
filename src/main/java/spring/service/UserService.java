@@ -6,6 +6,9 @@ import lombok.ToString;
 import org.hibernate.annotations.SortNatural;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
@@ -19,6 +22,7 @@ import spring.dto.UserReadDto;
 import spring.mapper.UserCreateEditMapper;
 import spring.mapper.UserReadMapper;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
@@ -27,7 +31,7 @@ import static spring.database.entity.QUser.user;
 @Service
 @RequiredArgsConstructor
 @Transactional(readOnly = true)
-public class UserService {
+public class UserService implements UserDetailsService {
     private final UserRepository userRepository;
     private final UserReadMapper userReadMapper;
     private final UserCreateEditMapper userCreateEditMapper;
@@ -41,6 +45,11 @@ public class UserService {
                 .build();
 
         return userRepository.findAll(predicate, pageable)
+                .map(userReadMapper::map);
+    }
+
+    public Optional<UserReadDto> findByUserName (String username) {
+        return userRepository.findByUsername(username)
                 .map(userReadMapper::map);
     }
 
@@ -117,9 +126,20 @@ public class UserService {
                 .orElse(false);
     }
 
-    public Optional<UserReadDto> authenticate(String username, String password) {
+//    public Optional<UserReadDto> authenticate(String username, String password) {
+//        return userRepository.findByUsername(username)
+//                .filter(user -> password.equals(user.getPassword()))
+//                .map(userReadMapper::map);
+//    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         return userRepository.findByUsername(username)
-                .filter(user -> password.equals(user.getPassword()))
-                .map(userReadMapper::map);
+                .map(user -> new org.springframework.security.core.userdetails.User(
+                        user.getUsername(),
+                        user.getPassword(),
+                        Collections.singleton(user.getRole())
+                ))
+                .orElseThrow(() -> new UsernameNotFoundException("Failed to retrieve user: " + username));
     }
 }

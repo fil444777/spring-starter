@@ -35,28 +35,6 @@ public class UserRestController {
         return PageResponse.of(page);
     }
 
-    @GetMapping("/login")
-    public String loginPage() {
-        return "user/login";
-    }
-
-    @PostMapping("/login")
-    public String login(@RequestParam String username,
-                        @RequestParam String password) {
-        System.out.println("Попытка входа " + username);
-        Optional<UserReadDto> maybeUser = userService.authenticate(username, password);
-        System.out.println("Result: " + maybeUser.isPresent());
-
-        if (maybeUser.isEmpty()) {
-            return "redirect:/login?error";
-        }
-        UserReadDto user = maybeUser.get();
-        if (user.getRole() == Role.ADMIN) {
-            return "redirect:/users";
-        }
-        return "redirect:/users/" + user.getId();
-    }
-
     @GetMapping("/{id}")
     public UserReadDto findById(@PathVariable("id") Long id) {
         return userService.findById(id)

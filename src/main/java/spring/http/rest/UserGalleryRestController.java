@@ -49,22 +49,20 @@ public class UserGalleryRestController {
 
     @DeleteMapping("/{imageId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void delete(@PathVariable Long userId,
-                       @PathVariable Long imageId) {
+    public void delete(@PathVariable Long userId, @PathVariable Long imageId) {
         userGalleryService.delete(userId, imageId);
     }
 
     @GetMapping("/{imageId}/file")
-    public ResponseEntity<byte[]> file(@PathVariable Long userId,
-                                       @PathVariable Long imageId) {
+    public ResponseEntity<byte[]> file(@PathVariable Long userId, @PathVariable Long imageId) {
         UserImage image = userGalleryService.findEntity(userId, imageId)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
 
         return userGalleryService.findFile(userId, imageId)
                 .map(content -> ResponseEntity.ok()
-                        .contentType(MediaType.parseMediaType(
-                                image.getContentType() == null ? MediaType.APPLICATION_OCTET_STREAM_VALUE : image.getContentType()))
-                        .body(content))
+                        .contentType(MediaType.parseMediaType(image.getContentType() == null
+                                ? MediaType.APPLICATION_OCTET_STREAM_VALUE
+                                : image.getContentType())).body(content))
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
 }

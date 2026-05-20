@@ -30,7 +30,7 @@
 
 <div th:each="img : ${images}" style="margin-bottom: 20px;">
   <div>
-    <img th:src="@{/users/{userId}/gallery/{imageId}/file(userId=${user.id},imageId=${img.id})}"
+    <img th:src="@{/api/v1/users/{userId}/gallery/{imageId}/file(userId=${user.id},imageId=${img.id})}"
          width="200"
          alt="Gallery image">
   </div>

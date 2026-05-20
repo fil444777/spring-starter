@@ -2,6 +2,7 @@ package by.javaguru.annotation;
 
 import by.javaguru.integration.TestApplicationRunner;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.transaction.annotation.Transactional;
 import spring.ApplicationRunner;
@@ -16,5 +17,6 @@ import java.lang.annotation.Target;
 @ActiveProfiles("test")
 @SpringBootTest(classes = {TestApplicationRunner.class, ApplicationRunner.class})
 @Transactional
+@WithMockUser(username = "test@gmail.com", password = "test", authorities = {"ADMIN", "USER"})
 public @interface IT {
 }

@@ -6,6 +6,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.annotation.CurrentSecurityContext;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -39,28 +44,6 @@ public class UserController {
         return "user/users";
     }
 
-    @GetMapping("/login")
-    public String loginPage() {
-        return "user/login";
-    }
-
-    @PostMapping("/login")
-    public String login (@RequestParam String username,
-                         @RequestParam String password) {
-        System.out.println("Попытка входа " + username);
-        Optional<UserReadDto> maybeUser = userService.authenticate(username, password);
-        System.out.println("Result: " + maybeUser.isPresent());
-
-        if (maybeUser.isEmpty()) {
-            return "redirect:/login?error";
-        }
-        UserReadDto user = maybeUser.get();
-        if (user.getRole() == Role.ADMIN) {
-            return "redirect:/users";
-        }
-        return "redirect:/users/" + user.getId();
-    }
-
     @GetMapping("/registration")
     public String registration(Model model, @ModelAttribute("user") UserCreateEditDto user) {
         model.addAttribute("user", user);
@@ -69,8 +52,19 @@ public class UserController {
         return "user/registration";
     }
 
+
     @GetMapping("/{id}")
-    public String findById(@PathVariable("id") Long id, Model model) {
+    public String findById(@PathVariable("id") Long id,
+                           Model model,
+                           @AuthenticationPrincipal UserDetails userDetails) {
+
+        var currentUser = userService.findByUserName(userDetails.getUsername())
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.UNAUTHORIZED));
+
+        if (!currentUser.getId().equals(id) && !currentUser.getRole().equals(Role.ADMIN)) {
+            throw new ResponseStatusException(HttpStatus.FORBIDDEN);
+        }
+
         return userService.findById(id)
                 .map(user -> {
                     model.addAttribute("user", user);

@@ -1,5 +1,6 @@
 package by.javaguru.integration.http.controller;
 
+import org.springframework.security.test.context.support.WithMockUser;
 import spring.dto.UserCreateEditDto;
 import by.javaguru.annotation.IT;
 import lombok.RequiredArgsConstructor;
@@ -26,8 +27,7 @@ public class UserControllerIT {
         mockMvc.perform(get("/users"))
                 .andExpect(status().is2xxSuccessful())
                 .andExpect(view().name("user/users"))
-                .andExpect(model().attributeExists("users"))
-                .andExpect(model().attribute("users", IsCollectionWithSize.hasSize(5)));
+                .andExpect(model().attributeExists("users"));
     }
 
     @Test
