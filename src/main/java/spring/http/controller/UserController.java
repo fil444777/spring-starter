@@ -18,6 +18,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import spring.database.entity.CustomUserDetails;
 import spring.database.entity.Role;
 import spring.dto.PageResponse;
 import spring.dto.UserCreateEditDto;
@@ -56,9 +57,9 @@ public class UserController {
     @GetMapping("/{id}")
     public String findById(@PathVariable("id") Long id,
                            Model model,
-                           @AuthenticationPrincipal UserDetails userDetails) {
+                           @AuthenticationPrincipal CustomUserDetails userDetails) {
 
-        var currentUser = userService.findByUserName(userDetails.getUsername())
+        var currentUser = userService.findById(userDetails.getId())
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.UNAUTHORIZED));
 
         if (!currentUser.getId().equals(id)
@@ -105,8 +106,17 @@ public class UserController {
 
     //    @PutMapping("/{id}")
     @PostMapping("{id}/update")
-    public String update(@PathVariable("id") Long id, @ModelAttribute @Validated UserCreateEditDto user) {
+    public String update(@PathVariable("id") Long id, @ModelAttribute @Validated UserCreateEditDto user,
+                         @AuthenticationPrincipal CustomUserDetails userDetails) {
 //        userService.update(id, user);
+        var currentUser = userService.findById(userDetails.getId())
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.UNAUTHORIZED));
+
+        if (!currentUser.getId().equals(id)
+                && !currentUser.getRole().equals(Role.ADMIN)
+                && !currentUser.getRole().equals(Role.OPERATOR)) {
+            throw new ResponseStatusException(HttpStatus.FORBIDDEN);
+        }
         return userService.update(id, user)
                 .map(it -> "redirect:/users/{id}")
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
@@ -114,7 +124,16 @@ public class UserController {
 
     //    @DeleteMapping("/{id}")
     @PostMapping("/{id}/delete")
-    public String delete(@PathVariable("id") Long id) {
+    public String delete(@PathVariable("id") Long id,
+                         @AuthenticationPrincipal CustomUserDetails userDetails) {
+        var currentUser = userService.findById(userDetails.getId())
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.UNAUTHORIZED));
+
+        if (!currentUser.getId().equals(id)
+                && !currentUser.getRole().equals(Role.ADMIN)
+                && !currentUser.getRole().equals(Role.OPERATOR)) {
+            throw new ResponseStatusException(HttpStatus.FORBIDDEN);
+        }
         if (!userService.delete(id)) {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }

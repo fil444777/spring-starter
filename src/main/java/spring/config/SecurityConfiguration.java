@@ -29,9 +29,6 @@ public class SecurityConfiguration {
                         .requestMatchers("/admin/**").hasRole(ADMIN.getAuthority())
                         .requestMatchers(antMatcher("/users")).hasAnyAuthority(ADMIN.getAuthority())
                         .requestMatchers(antMatcher("/users")).hasAnyAuthority(OPERATOR.getAuthority())
-                        .requestMatchers(antMatcher("/users/{\\d}/delete")).hasAnyAuthority(ADMIN.getAuthority())
-                        .requestMatchers(antMatcher("/users/{\\d}/update")).hasAnyAuthority(ADMIN.getAuthority())
-                        .requestMatchers(antMatcher("/users/{\\d}/update")).hasAnyAuthority(OPERATOR.getAuthority())
                         .anyRequest().authenticated())
 //                .httpBasic(Customizer.withDefaults())
                 .formLogin(login -> login
