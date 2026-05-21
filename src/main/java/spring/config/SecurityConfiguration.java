@@ -42,7 +42,7 @@ public class SecurityConfiguration {
                             if (userDetails.getRole().equals(Role.ADMIN) || userDetails.getRole().equals(Role.OPERATOR)) {
                                 response.sendRedirect("/users");
                             } else {
-                                response.sendRedirect("/user/" + userDetails.getId());
+                                response.sendRedirect("/users/" + userDetails.getId());
                             }
                         })
                         .permitAll())

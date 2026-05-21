@@ -2,3 +2,13 @@
 2026-05-21T20:12:53.159+03:00  INFO 1428 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
 2026-05-21T20:12:53.159+03:00  INFO 1428 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
 2026-05-21T20:12:53.244+03:00  WARN 1428 --- [main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [customUserDetailsService, userService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-05-21T20:16:24.417+03:00  INFO 18720 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-05-21T20:16:24.838+03:00  INFO 18720 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-05-21T20:16:24.838+03:00  INFO 18720 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-05-21T20:16:24.919+03:00  WARN 18720 --- [main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [customUserDetailsService, userService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-05-21T20:23:57.512+03:00  INFO 19168 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-05-21T20:23:57.917+03:00  INFO 19168 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-05-21T20:23:57.917+03:00  INFO 19168 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-05-21T20:25:13.364+03:00  INFO 7020 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-05-21T20:25:13.779+03:00  INFO 7020 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-05-21T20:25:13.779+03:00  INFO 7020 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool

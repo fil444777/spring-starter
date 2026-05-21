@@ -31,7 +31,7 @@ import static spring.database.entity.QUser.user;
 @Service
 @RequiredArgsConstructor
 @Transactional(readOnly = true)
-public class UserService implements UserDetailsService {
+public class UserService {
     private final UserRepository userRepository;
     private final UserReadMapper userReadMapper;
     private final UserCreateEditMapper userCreateEditMapper;
@@ -48,7 +48,7 @@ public class UserService implements UserDetailsService {
                 .map(userReadMapper::map);
     }
 
-    public Optional<UserReadDto> findByUserName (String username) {
+    public Optional<UserReadDto> findByUserName(String username) {
         return userRepository.findByUsername(username)
                 .map(userReadMapper::map);
     }
@@ -84,7 +84,7 @@ public class UserService implements UserDetailsService {
 
     @SneakyThrows
     private void uploadImage(MultipartFile image) {
-        if(!image.isEmpty()) {
+        if (!image.isEmpty()) {
             imageService.upload(image.getOriginalFilename(), image.getInputStream());
         }
     }
@@ -132,15 +132,5 @@ public class UserService implements UserDetailsService {
 //                .map(userReadMapper::map);
 //    }
 
-    @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        return userRepository.findByUsername(username)
-                .map(user -> new org.springframework.security.core.userdetails.User(
-                        user.getUsername(),
-                        user.getPassword(),
-                        Collections.singleton(user.getRole())
-                ))
-                .orElseThrow(() -> new UsernameNotFoundException("Failed to retrieve user: " + username));
-    }
 
 }
