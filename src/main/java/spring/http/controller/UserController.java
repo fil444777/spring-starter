@@ -57,9 +57,9 @@ public class UserController {
     @GetMapping("/{id}")
     public String findById(@PathVariable("id") Long id,
                            Model model,
-                           @AuthenticationPrincipal CustomUserDetails userDetails) {
+                           @AuthenticationPrincipal UserDetails userDetails) {
 
-        var currentUser = userService.findById(userDetails.getId())
+        var currentUser = userService.findByUserName(userDetails.getUsername())
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.UNAUTHORIZED));
 
         if (!currentUser.getId().equals(id)
@@ -107,9 +107,9 @@ public class UserController {
     //    @PutMapping("/{id}")
     @PostMapping("{id}/update")
     public String update(@PathVariable("id") Long id, @ModelAttribute @Validated UserCreateEditDto user,
-                         @AuthenticationPrincipal CustomUserDetails userDetails) {
+                         @AuthenticationPrincipal UserDetails userDetails) {
 //        userService.update(id, user);
-        var currentUser = userService.findById(userDetails.getId())
+        var currentUser = userService.findByUserName(userDetails.getUsername())
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.UNAUTHORIZED));
 
         if (!currentUser.getId().equals(id)
@@ -125,8 +125,8 @@ public class UserController {
     //    @DeleteMapping("/{id}")
     @PostMapping("/{id}/delete")
     public String delete(@PathVariable("id") Long id,
-                         @AuthenticationPrincipal CustomUserDetails userDetails) {
-        var currentUser = userService.findById(userDetails.getId())
+                         @AuthenticationPrincipal UserDetails userDetails) {
+        var currentUser = userService.findByUserName(userDetails.getUsername())
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.UNAUTHORIZED));
 
         if (!currentUser.getId().equals(id)
