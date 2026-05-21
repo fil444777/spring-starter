@@ -130,8 +130,7 @@ public class UserController {
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.UNAUTHORIZED));
 
         if (!currentUser.getId().equals(id)
-                && !currentUser.getRole().equals(Role.ADMIN)
-                && !currentUser.getRole().equals(Role.OPERATOR)) {
+                && !currentUser.getRole().equals(Role.ADMIN)) {
             throw new ResponseStatusException(HttpStatus.FORBIDDEN);
         }
         if (!userService.delete(id)) {

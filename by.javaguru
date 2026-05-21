@@ -458,3 +458,6 @@ org.springframework.web.server.ResponseStatusException: 401 UNAUTHORIZED
 2026-05-21T20:41:47.927+03:00  INFO 5948 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
 2026-05-21T20:41:48.429+03:00  INFO 5948 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
 2026-05-21T20:41:48.429+03:00  INFO 5948 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-05-21T20:45:05.529+03:00  INFO 19660 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-05-21T20:45:05.979+03:00  INFO 19660 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-05-21T20:45:05.980+03:00  INFO 19660 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
