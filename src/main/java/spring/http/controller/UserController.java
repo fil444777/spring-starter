@@ -61,7 +61,9 @@ public class UserController {
         var currentUser = userService.findByUserName(userDetails.getUsername())
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.UNAUTHORIZED));
 
-        if (!currentUser.getId().equals(id) && !currentUser.getRole().equals(Role.ADMIN)) {
+        if (!currentUser.getId().equals(id)
+                && !currentUser.getRole().equals(Role.ADMIN)
+                && !currentUser.getRole().equals(Role.OPERATOR)) {
             throw new ResponseStatusException(HttpStatus.FORBIDDEN);
         }
 

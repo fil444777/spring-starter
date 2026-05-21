@@ -142,4 +142,5 @@ public class UserService implements UserDetailsService {
                 ))
                 .orElseThrow(() -> new UsernameNotFoundException("Failed to retrieve user: " + username));
     }
+
 }
