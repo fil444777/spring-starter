@@ -66,7 +66,7 @@ public class ImageUploadLoggingAspect {
 
         if (fileSize > MAX_FILE_SIZE_BYTES) {
             String userMessage = String.format(
-                    "⚠️ Файл '%s' слишком большой (%.2f MB). " +
+                    "Файл '%s' слишком большой (%.2f MB). " +
                             "Максимальный размер файла: 1 MB. " +
                             "Пожалуйста, выберите изображение меньшего размера или сожмите его.",
                     fileName != null ? fileName : "загруженный файл",
