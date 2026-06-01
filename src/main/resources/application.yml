@@ -20,7 +20,7 @@ db:
 
 logging:
   level:
-    root: WARN
+    root: INFO
     spring.database.repository.pool: INFO
   file:
     name: by.javaguru
@@ -43,6 +43,9 @@ spring:
       show_sql: true
       format_sql: true
       hdm2ddl.auto: validate
+  messages:
+    basename: messages
+
 app:
   image:
     bucket: C:\Users\user\IdeaProjects\spring-starter\image
