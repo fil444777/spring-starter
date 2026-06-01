@@ -1,33 +1,21 @@
-2026-05-27T17:47:15.048+03:00  INFO 12704 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T17:47:15.797+03:00  INFO 12704 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T17:47:15.797+03:00  INFO 12704 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T17:48:24.344+03:00  INFO 2188 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T17:48:24.779+03:00  INFO 2188 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T17:48:24.780+03:00  INFO 2188 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T17:51:36.574+03:00  INFO 1420 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T17:51:36.972+03:00  INFO 1420 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T17:51:36.973+03:00  INFO 1420 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T17:52:35.465+03:00  INFO 7092 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T17:52:35.885+03:00  INFO 7092 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T17:52:35.886+03:00  INFO 7092 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:38:41.111+03:00  INFO 3852 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 3852 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
-2026-05-27T19:38:41.113+03:00  INFO 3852 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
-2026-05-27T19:38:41.587+03:00  INFO 3852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-27T19:38:41.630+03:00  INFO 3852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
-2026-05-27T19:38:42.062+03:00  INFO 3852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-05-27T19:38:42.068+03:00  INFO 3852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-27T19:38:42.068+03:00  INFO 3852 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2026-05-27T19:38:42.164+03:00  INFO 3852 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2026-05-27T19:38:42.167+03:00  INFO 3852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-05-27T19:38:42.167+03:00  INFO 3852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1027 ms
-2026-05-27T19:38:42.252+03:00  INFO 3852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-27T19:38:42.356+03:00  INFO 3852 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bfa3893
-2026-05-27T19:38:42.357+03:00  INFO 3852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-27T19:38:42.380+03:00  INFO 3852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-05-27T19:38:42.409+03:00  INFO 3852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2026-05-27T19:38:42.428+03:00  INFO 3852 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-05-27T19:38:42.592+03:00  INFO 3852 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-27T19:38:42.645+03:00  INFO 3852 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-06-01T20:14:40.035+03:00  INFO 4492 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 4492 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
+2026-06-01T20:14:40.039+03:00  INFO 4492 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T20:14:40.575+03:00  INFO 4492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T20:14:40.634+03:00  INFO 4492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2026-06-01T20:14:41.179+03:00  INFO 4492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-01T20:14:41.190+03:00  INFO 4492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T20:14:41.191+03:00  INFO 4492 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-06-01T20:14:41.326+03:00  INFO 4492 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-06-01T20:14:41.330+03:00  INFO 4492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-01T20:14:41.330+03:00  INFO 4492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1261 ms
+2026-06-01T20:14:41.451+03:00  INFO 4492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T20:14:41.590+03:00  INFO 4492 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f3f3d00
+2026-06-01T20:14:41.592+03:00  INFO 4492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T20:14:41.621+03:00  INFO 4492 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01T20:14:41.669+03:00  INFO 4492 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-06-01T20:14:41.696+03:00  INFO 4492 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-01T20:14:41.910+03:00  INFO 4492 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T20:14:42.006+03:00  INFO 4492 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 18.1
@@ -35,42 +23,54 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-27T19:38:43.178+03:00  INFO 3852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-27T19:38:43.327+03:00  INFO 3852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-27T19:38:43.337+03:00  INFO 3852 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:38:43.510+03:00  INFO 3852 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-27T19:38:43.781+03:00  INFO 3852 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:38:43.782+03:00  INFO 3852 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:38:43.871+03:00  INFO 3852 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2026-05-27T19:38:44.320+03:00  INFO 3852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-05-27T19:38:44.326+03:00  INFO 3852 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.487 seconds (process running for 3.807)
-2026-05-27T19:38:52.968+03:00  INFO 3852 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-27T19:38:52.968+03:00  INFO 3852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-27T19:38:52.969+03:00  INFO 3852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-27T19:39:06.019+03:00  INFO 3852 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@54d9ebe1, with id 4
-2026-05-27T19:46:21.188+03:00  INFO 3852 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-27T19:46:21.228+03:00  INFO 3852 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-05-27T19:46:21.231+03:00  INFO 3852 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-27T19:46:21.232+03:00  INFO 3852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-27T19:46:21.233+03:00  INFO 3852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-27T19:46:23.567+03:00  INFO 16560 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 16560 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
-2026-05-27T19:46:23.568+03:00  INFO 16560 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
-2026-05-27T19:46:24.032+03:00  INFO 16560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-27T19:46:24.081+03:00  INFO 16560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
-2026-05-27T19:46:24.474+03:00  INFO 16560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-05-27T19:46:24.485+03:00  INFO 16560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-27T19:46:24.485+03:00  INFO 16560 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2026-05-27T19:46:24.566+03:00  INFO 16560 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2026-05-27T19:46:24.569+03:00  INFO 16560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-05-27T19:46:24.569+03:00  INFO 16560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 975 ms
-2026-05-27T19:46:24.654+03:00  INFO 16560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-27T19:46:24.745+03:00  INFO 16560 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5f3f3d00
-2026-05-27T19:46:24.748+03:00  INFO 16560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-27T19:46:24.770+03:00  INFO 16560 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-05-27T19:46:24.797+03:00  INFO 16560 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2026-05-27T19:46:24.813+03:00  INFO 16560 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-05-27T19:46:24.961+03:00  INFO 16560 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-27T19:46:25.008+03:00  INFO 16560 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-06-01T20:14:42.658+03:00  INFO 4492 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T20:14:42.839+03:00  INFO 4492 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:14:42.854+03:00  INFO 4492 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:14:43.079+03:00  INFO 4492 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T20:14:43.426+03:00  INFO 4492 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:14:43.427+03:00  INFO 4492 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:14:43.542+03:00  INFO 4492 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-01T20:14:44.146+03:00  INFO 4492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T20:14:44.152+03:00  INFO 4492 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 4.417 seconds (process running for 4.745)
+2026-06-01T20:15:02.732+03:00  INFO 4492 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01T20:15:02.732+03:00  INFO 4492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-01T20:15:02.733+03:00  INFO 4492 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-01T20:15:19.567+03:00  INFO 4492 --- [http-nio-8080-exec-8] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@5a5c9a46, with id 1
+2026-06-01T20:15:19.568+03:00  INFO 4492 --- [http-nio-8080-exec-8] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@5a5c9a46, with id 1
+2026-06-01T20:15:19.571+03:00  INFO 4492 --- [http-nio-8080-exec-8] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@5a5c9a46, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:15:19.574+03:00  INFO 4492 --- [http-nio-8080-exec-8] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@5a5c9a46
+2026-06-01T20:15:19.574+03:00  INFO 4492 --- [http-nio-8080-exec-8] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@5a5c9a46, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:15:19.574+03:00  INFO 4492 --- [http-nio-8080-exec-8] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@5a5c9a46
+2026-06-01T20:17:36.528+03:00  INFO 4492 --- [http-nio-8080-exec-1] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@5a5c9a46, with id 1
+2026-06-01T20:17:36.528+03:00  INFO 4492 --- [http-nio-8080-exec-1] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@5a5c9a46, with id 1
+2026-06-01T20:17:36.531+03:00  INFO 4492 --- [http-nio-8080-exec-1] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@5a5c9a46, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:17:36.531+03:00  INFO 4492 --- [http-nio-8080-exec-1] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@5a5c9a46
+2026-06-01T20:17:36.531+03:00  INFO 4492 --- [http-nio-8080-exec-1] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@5a5c9a46, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:17:36.531+03:00  INFO 4492 --- [http-nio-8080-exec-1] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@5a5c9a46
+2026-06-01T20:17:47.289+03:00  WARN 4492 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:23:03.039+03:00  INFO 4492 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T20:23:03.082+03:00  INFO 4492 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-01T20:23:03.084+03:00  INFO 4492 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:23:03.086+03:00  INFO 4492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T20:23:03.087+03:00  INFO 4492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-01T20:23:05.459+03:00  INFO 20260 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 20260 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
+2026-06-01T20:23:05.460+03:00  INFO 20260 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T20:23:05.983+03:00  INFO 20260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T20:23:06.032+03:00  INFO 20260 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
+2026-06-01T20:23:06.440+03:00  INFO 20260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-01T20:23:06.453+03:00  INFO 20260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T20:23:06.453+03:00  INFO 20260 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-06-01T20:23:06.535+03:00  INFO 20260 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-06-01T20:23:06.537+03:00  INFO 20260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-01T20:23:06.538+03:00  INFO 20260 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1050 ms
+2026-06-01T20:23:06.626+03:00  INFO 20260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T20:23:06.720+03:00  INFO 20260 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e97f115
+2026-06-01T20:23:06.721+03:00  INFO 20260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T20:23:06.742+03:00  INFO 20260 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01T20:23:06.770+03:00  INFO 20260 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-06-01T20:23:06.786+03:00  INFO 20260 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-01T20:23:06.933+03:00  INFO 20260 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T20:23:06.979+03:00  INFO 20260 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 18.1
@@ -78,44 +78,55 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-27T19:46:25.546+03:00  INFO 16560 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-27T19:46:25.698+03:00  INFO 16560 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-27T19:46:25.709+03:00  INFO 16560 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:46:25.886+03:00  INFO 16560 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-27T19:46:26.189+03:00  INFO 16560 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:46:26.190+03:00  INFO 16560 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:46:26.298+03:00  INFO 16560 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2026-05-27T19:46:26.816+03:00  INFO 16560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-05-27T19:46:26.823+03:00  INFO 16560 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.526 seconds (process running for 3.837)
-2026-05-27T19:46:28.200+03:00  INFO 16560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-27T19:46:28.200+03:00  INFO 16560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-27T19:46:28.201+03:00  INFO 16560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-27T19:46:31.643+03:00  INFO 16560 --- [http-nio-8080-exec-7] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@758d901e, with id 4
-2026-05-27T19:46:31.646+03:00  INFO 16560 --- [http-nio-8080-exec-7] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@758d901e, with result Optional[UserReadDto(id=4, username=vlad@gmail.com, password={noop}123, birthDate=1984-03-14, firstname=Vlad, lastname=Vladikov, role=USER, image=null, company=CompanyReadDto[id=3, name=Amazon])]
-2026-05-27T19:46:31.649+03:00  INFO 16560 --- [http-nio-8080-exec-7] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@758d901e
-2026-05-27T19:50:21.125+03:00  INFO 16560 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-27T19:50:21.164+03:00  INFO 16560 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-05-27T19:50:21.168+03:00  INFO 16560 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-27T19:50:21.169+03:00  INFO 16560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-27T19:50:21.170+03:00  INFO 16560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-27T19:50:25.250+03:00  INFO 3016 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 3016 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
-2026-05-27T19:50:25.252+03:00  INFO 3016 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
-2026-05-27T19:50:25.712+03:00  INFO 3016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-27T19:50:25.756+03:00  INFO 3016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
-2026-05-27T19:50:26.158+03:00  INFO 3016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-05-27T19:50:26.171+03:00  INFO 3016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-27T19:50:26.171+03:00  INFO 3016 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2026-05-27T19:50:26.249+03:00  INFO 3016 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2026-05-27T19:50:26.251+03:00  INFO 3016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-05-27T19:50:26.252+03:00  INFO 3016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 975 ms
-2026-05-27T19:50:26.338+03:00  INFO 3016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-27T19:50:26.426+03:00  INFO 3016 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@483b7dc4
-2026-05-27T19:50:26.427+03:00  INFO 3016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-27T19:50:26.449+03:00  INFO 3016 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-05-27T19:50:26.476+03:00  INFO 3016 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2026-05-27T19:50:26.492+03:00  INFO 3016 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-05-27T19:50:26.644+03:00  INFO 3016 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-27T19:50:26.696+03:00  INFO 3016 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-06-01T20:23:07.518+03:00  INFO 20260 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T20:23:07.675+03:00  INFO 20260 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:23:07.688+03:00  INFO 20260 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:23:07.867+03:00  INFO 20260 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T20:23:08.149+03:00  INFO 20260 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:23:08.149+03:00  INFO 20260 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:23:08.246+03:00  INFO 20260 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-01T20:23:08.822+03:00  INFO 20260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T20:23:08.830+03:00  INFO 20260 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.637 seconds (process running for 3.94)
+2026-06-01T20:23:17.503+03:00  INFO 20260 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01T20:23:17.504+03:00  INFO 20260 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-01T20:23:17.504+03:00  INFO 20260 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-01T20:23:21.361+03:00  INFO 20260 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@72b7eb06, with id 1
+2026-06-01T20:23:21.361+03:00  INFO 20260 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@72b7eb06, with id 1
+2026-06-01T20:23:21.364+03:00  INFO 20260 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@72b7eb06, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:23:21.367+03:00  INFO 20260 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@72b7eb06
+2026-06-01T20:23:21.368+03:00  INFO 20260 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@72b7eb06, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:23:21.368+03:00  INFO 20260 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@72b7eb06
+2026-06-01T20:23:22.499+03:00  INFO 20260 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@72b7eb06, with id 1
+2026-06-01T20:23:22.499+03:00  INFO 20260 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@72b7eb06, with id 1
+2026-06-01T20:23:22.501+03:00  INFO 20260 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@72b7eb06, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:23:22.502+03:00  INFO 20260 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@72b7eb06
+2026-06-01T20:23:22.502+03:00  INFO 20260 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@72b7eb06, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:23:22.502+03:00  INFO 20260 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@72b7eb06
+2026-06-01T20:23:26.757+03:00  WARN 20260 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:23:27.780+03:00  WARN 20260 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:26:07.627+03:00  INFO 20260 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T20:26:07.673+03:00  INFO 20260 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-01T20:26:07.676+03:00  INFO 20260 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:26:07.678+03:00  INFO 20260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T20:26:07.679+03:00  INFO 20260 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-01T20:26:09.899+03:00  INFO 7692 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 7692 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
+2026-06-01T20:26:09.901+03:00  INFO 7692 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T20:26:10.372+03:00  INFO 7692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T20:26:10.420+03:00  INFO 7692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 4 JPA repository interfaces.
+2026-06-01T20:26:10.832+03:00  INFO 7692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-01T20:26:10.844+03:00  INFO 7692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T20:26:10.844+03:00  INFO 7692 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-06-01T20:26:10.924+03:00  INFO 7692 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-06-01T20:26:10.927+03:00  INFO 7692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-01T20:26:10.927+03:00  INFO 7692 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1001 ms
+2026-06-01T20:26:11.014+03:00  INFO 7692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T20:26:11.110+03:00  INFO 7692 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@70884875
+2026-06-01T20:26:11.111+03:00  INFO 7692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T20:26:11.133+03:00  INFO 7692 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01T20:26:11.159+03:00  INFO 7692 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-06-01T20:26:11.176+03:00  INFO 7692 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-01T20:26:11.331+03:00  INFO 7692 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T20:26:11.381+03:00  INFO 7692 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 18.1
@@ -123,47 +134,56 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-27T19:50:27.255+03:00  INFO 3016 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-27T19:50:27.416+03:00  INFO 3016 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-27T19:50:27.429+03:00  INFO 3016 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:50:27.617+03:00  INFO 3016 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-27T19:50:27.934+03:00  INFO 3016 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:50:27.935+03:00  INFO 3016 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:50:28.041+03:00  INFO 3016 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2026-05-27T19:50:28.601+03:00  INFO 3016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-05-27T19:50:28.606+03:00  INFO 3016 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.635 seconds (process running for 3.943)
-2026-05-27T19:50:28.983+03:00  INFO 3016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-27T19:50:28.983+03:00  INFO 3016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-27T19:50:28.984+03:00  INFO 3016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-27T19:50:32.652+03:00  INFO 3016 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : AROUND before - invoked findById method in class spring.service.UserService@5a1b205, with id 4
-2026-05-27T19:50:32.652+03:00  INFO 3016 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@5a1b205, with id 4
-2026-05-27T19:50:32.655+03:00  INFO 3016 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@5a1b205, with result Optional[UserReadDto(id=4, username=vlad@gmail.com, password={noop}123, birthDate=1984-03-14, firstname=Vlad, lastname=Vladikov, role=USER, image=null, company=CompanyReadDto[id=3, name=Amazon])]
-2026-05-27T19:50:32.658+03:00  INFO 3016 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@5a1b205
-2026-05-27T19:50:32.658+03:00  INFO 3016 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : AROUND after returning - invoked findById method in class spring.service.UserService@5a1b205, result Optional[UserReadDto(id=4, username=vlad@gmail.com, password={noop}123, birthDate=1984-03-14, firstname=Vlad, lastname=Vladikov, role=USER, image=null, company=CompanyReadDto[id=3, name=Amazon])]
-2026-05-27T19:50:32.658+03:00  INFO 3016 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : AROUND after (finally) - invoked findById method in class spring.service.UserService@5a1b205
-2026-05-27T19:54:16.226+03:00  INFO 3016 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-27T19:54:16.265+03:00  INFO 3016 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-05-27T19:54:16.268+03:00  INFO 3016 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-27T19:54:16.269+03:00  INFO 3016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-27T19:54:16.271+03:00  INFO 3016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-05-27T19:54:18.392+03:00  INFO 13768 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 13768 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
-2026-05-27T19:54:18.394+03:00  INFO 13768 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
-2026-05-27T19:54:18.880+03:00  INFO 13768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-27T19:54:18.926+03:00  INFO 13768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 4 JPA repository interfaces.
-2026-05-27T19:54:19.328+03:00  INFO 13768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-05-27T19:54:19.334+03:00  INFO 13768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-27T19:54:19.334+03:00  INFO 13768 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2026-05-27T19:54:19.419+03:00  INFO 13768 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2026-05-27T19:54:19.421+03:00  INFO 13768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-05-27T19:54:19.422+03:00  INFO 13768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1003 ms
-2026-05-27T19:54:19.509+03:00  INFO 13768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-05-27T19:54:19.602+03:00  INFO 13768 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5871a482
-2026-05-27T19:54:19.603+03:00  INFO 13768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-05-27T19:54:19.624+03:00  INFO 13768 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-05-27T19:54:19.651+03:00  INFO 13768 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2026-05-27T19:54:19.668+03:00  INFO 13768 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-05-27T19:54:19.821+03:00  INFO 13768 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-27T19:54:19.870+03:00  INFO 13768 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-06-01T20:26:11.931+03:00  INFO 7692 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T20:26:12.083+03:00  INFO 7692 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:26:12.096+03:00  INFO 7692 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:26:12.277+03:00  INFO 7692 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T20:26:12.556+03:00  INFO 7692 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:26:12.557+03:00  INFO 7692 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:26:12.655+03:00  INFO 7692 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-01T20:26:13.171+03:00  INFO 7692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T20:26:13.177+03:00  INFO 7692 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.551 seconds (process running for 3.845)
+2026-06-01T20:26:22.123+03:00  INFO 7692 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01T20:26:22.124+03:00  INFO 7692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-01T20:26:22.124+03:00  INFO 7692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-01T20:26:24.870+03:00  INFO 7692 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@30100995, with id 1
+2026-06-01T20:26:24.870+03:00  INFO 7692 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@30100995, with id 1
+2026-06-01T20:26:24.873+03:00  INFO 7692 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@30100995, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:26:24.876+03:00  INFO 7692 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@30100995
+2026-06-01T20:26:24.876+03:00  INFO 7692 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@30100995, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:26:24.876+03:00  INFO 7692 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@30100995
+2026-06-01T20:26:26.242+03:00  INFO 7692 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@30100995, with id 1
+2026-06-01T20:26:26.242+03:00  INFO 7692 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@30100995, with id 1
+2026-06-01T20:26:26.244+03:00  INFO 7692 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@30100995, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:26:26.245+03:00  INFO 7692 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@30100995
+2026-06-01T20:26:26.245+03:00  INFO 7692 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@30100995, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:26:26.245+03:00  INFO 7692 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@30100995
+2026-06-01T20:26:30.057+03:00  WARN 7692 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:26:31.090+03:00  WARN 7692 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:26:32.110+03:00  WARN 7692 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:27:11.168+03:00  INFO 7692 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T20:27:11.209+03:00  INFO 7692 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-01T20:27:11.212+03:00  INFO 7692 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:27:11.213+03:00  INFO 7692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T20:27:11.214+03:00  INFO 7692 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-01T20:27:12.821+03:00  INFO 17416 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 17416 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
+2026-06-01T20:27:12.823+03:00  INFO 17416 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T20:27:13.299+03:00  INFO 17416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T20:27:13.343+03:00  INFO 17416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
+2026-06-01T20:27:13.751+03:00  INFO 17416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-01T20:27:13.764+03:00  INFO 17416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T20:27:13.764+03:00  INFO 17416 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-06-01T20:27:13.845+03:00  INFO 17416 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-06-01T20:27:13.847+03:00  INFO 17416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-01T20:27:13.847+03:00  INFO 17416 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1000 ms
+2026-06-01T20:27:13.944+03:00  INFO 17416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T20:27:14.041+03:00  INFO 17416 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b94c789
+2026-06-01T20:27:14.042+03:00  INFO 17416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T20:27:14.064+03:00  INFO 17416 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01T20:27:14.092+03:00  INFO 17416 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-06-01T20:27:14.108+03:00  INFO 17416 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-01T20:27:14.258+03:00  INFO 17416 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T20:27:14.305+03:00  INFO 17416 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 18.1
@@ -171,26 +191,787 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-05-27T19:54:20.429+03:00  INFO 13768 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-27T19:54:20.589+03:00  INFO 13768 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-27T19:54:20.603+03:00  INFO 13768 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:54:20.791+03:00  INFO 13768 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-05-27T19:54:21.104+03:00  INFO 13768 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:54:21.104+03:00  INFO 13768 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
-2026-05-27T19:54:21.213+03:00  INFO 13768 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2026-05-27T19:54:21.751+03:00  INFO 13768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-05-27T19:54:21.758+03:00  INFO 13768 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.636 seconds (process running for 3.939)
-2026-05-27T19:54:23.001+03:00  INFO 13768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-05-27T19:54:23.001+03:00  INFO 13768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-05-27T19:54:23.002+03:00  INFO 13768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-05-27T19:54:26.085+03:00  INFO 13768 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@5426c89f, with id 4
-2026-05-27T19:54:26.085+03:00  INFO 13768 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@5426c89f, with id 4
-2026-05-27T19:54:26.088+03:00  INFO 13768 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@5426c89f, result Optional[UserReadDto(id=4, username=vlad@gmail.com, password={noop}123, birthDate=1984-03-14, firstname=Vlad, lastname=Vladikov, role=USER, image=null, company=CompanyReadDto[id=3, name=Amazon])]
-2026-05-27T19:54:26.091+03:00  INFO 13768 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@5426c89f
-2026-05-27T19:54:26.091+03:00  INFO 13768 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@5426c89f, with result Optional[UserReadDto(id=4, username=vlad@gmail.com, password={noop}123, birthDate=1984-03-14, firstname=Vlad, lastname=Vladikov, role=USER, image=null, company=CompanyReadDto[id=3, name=Amazon])]
-2026-05-27T19:54:26.091+03:00  INFO 13768 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@5426c89f
-2026-05-27T19:55:11.456+03:00  INFO 13768 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-05-27T19:55:11.495+03:00  INFO 13768 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-05-27T19:55:11.498+03:00  INFO 13768 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-05-27T19:55:11.499+03:00  INFO 13768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-05-27T19:55:11.500+03:00  INFO 13768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-01T20:27:14.855+03:00  INFO 17416 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T20:27:15.007+03:00  INFO 17416 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:27:15.023+03:00  INFO 17416 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:27:15.206+03:00  INFO 17416 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T20:27:15.479+03:00  INFO 17416 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:27:15.480+03:00  INFO 17416 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:27:15.579+03:00  INFO 17416 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-01T20:27:16.091+03:00  INFO 17416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T20:27:16.097+03:00  INFO 17416 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.536 seconds (process running for 3.87)
+2026-06-01T20:27:25.901+03:00  INFO 17416 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01T20:27:25.901+03:00  INFO 17416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-01T20:27:25.902+03:00  INFO 17416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-01T20:27:28.580+03:00  INFO 17416 --- [http-nio-8080-exec-10] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@128403d8, with id 1
+2026-06-01T20:27:28.580+03:00  INFO 17416 --- [http-nio-8080-exec-10] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@128403d8, with id 1
+2026-06-01T20:27:28.583+03:00  INFO 17416 --- [http-nio-8080-exec-10] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@128403d8, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:27:28.587+03:00  INFO 17416 --- [http-nio-8080-exec-10] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@128403d8
+2026-06-01T20:27:28.587+03:00  INFO 17416 --- [http-nio-8080-exec-10] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@128403d8, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:27:28.587+03:00  INFO 17416 --- [http-nio-8080-exec-10] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@128403d8
+2026-06-01T20:27:29.615+03:00  INFO 17416 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@128403d8, with id 1
+2026-06-01T20:27:29.615+03:00  INFO 17416 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@128403d8, with id 1
+2026-06-01T20:27:29.618+03:00  INFO 17416 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@128403d8, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:27:29.618+03:00  INFO 17416 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@128403d8
+2026-06-01T20:27:29.618+03:00  INFO 17416 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@128403d8, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:27:29.618+03:00  INFO 17416 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@128403d8
+2026-06-01T20:27:33.374+03:00  WARN 17416 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:27:34.392+03:00  WARN 17416 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:27:35.407+03:00  WARN 17416 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:29:03.051+03:00  INFO 17416 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T20:29:03.096+03:00  INFO 17416 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-01T20:29:03.098+03:00  INFO 17416 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:29:03.099+03:00  INFO 17416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T20:29:03.100+03:00  INFO 17416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-01T20:29:05.199+03:00  INFO 17108 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 17108 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
+2026-06-01T20:29:05.201+03:00  INFO 17108 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T20:29:05.684+03:00  INFO 17108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T20:29:05.726+03:00  INFO 17108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 4 JPA repository interfaces.
+2026-06-01T20:29:06.141+03:00  INFO 17108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-01T20:29:06.153+03:00  INFO 17108 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T20:29:06.153+03:00  INFO 17108 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-06-01T20:29:06.236+03:00  INFO 17108 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-06-01T20:29:06.239+03:00  INFO 17108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-01T20:29:06.239+03:00  INFO 17108 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
+2026-06-01T20:29:06.333+03:00  INFO 17108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T20:29:06.428+03:00  INFO 17108 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@299fc582
+2026-06-01T20:29:06.429+03:00  INFO 17108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T20:29:06.450+03:00  INFO 17108 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01T20:29:06.477+03:00  INFO 17108 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-06-01T20:29:06.494+03:00  INFO 17108 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-01T20:29:06.647+03:00  INFO 17108 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T20:29:06.696+03:00  INFO 17108 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01T20:29:07.265+03:00  INFO 17108 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T20:29:07.420+03:00  INFO 17108 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:29:07.435+03:00  INFO 17108 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:29:07.620+03:00  INFO 17108 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T20:29:07.904+03:00  INFO 17108 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:29:07.905+03:00  INFO 17108 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:29:08.008+03:00  INFO 17108 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-01T20:29:08.528+03:00  INFO 17108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T20:29:08.533+03:00  INFO 17108 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.606 seconds (process running for 3.915)
+2026-06-01T20:29:14.873+03:00  INFO 17108 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01T20:29:14.873+03:00  INFO 17108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-01T20:29:14.874+03:00  INFO 17108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-01T20:29:17.182+03:00  INFO 17108 --- [http-nio-8080-exec-2] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@70141128, with id 1
+2026-06-01T20:29:17.182+03:00  INFO 17108 --- [http-nio-8080-exec-2] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@70141128, with id 1
+2026-06-01T20:29:17.185+03:00  INFO 17108 --- [http-nio-8080-exec-2] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@70141128, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:29:17.189+03:00  INFO 17108 --- [http-nio-8080-exec-2] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@70141128
+2026-06-01T20:29:17.189+03:00  INFO 17108 --- [http-nio-8080-exec-2] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@70141128, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:29:17.189+03:00  INFO 17108 --- [http-nio-8080-exec-2] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@70141128
+2026-06-01T20:29:19.222+03:00  INFO 17108 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@70141128, with id 1
+2026-06-01T20:29:19.223+03:00  INFO 17108 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@70141128, with id 1
+2026-06-01T20:29:19.225+03:00  INFO 17108 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@70141128, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:29:19.225+03:00  INFO 17108 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@70141128
+2026-06-01T20:29:19.225+03:00  INFO 17108 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@70141128, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:29:19.225+03:00  INFO 17108 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@70141128
+2026-06-01T20:29:23.321+03:00  WARN 17108 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:29:24.337+03:00  WARN 17108 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:29:25.358+03:00  WARN 17108 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:33:02.815+03:00  INFO 17108 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T20:33:02.855+03:00  INFO 17108 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-01T20:33:02.858+03:00  INFO 17108 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:33:02.859+03:00  INFO 17108 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T20:33:02.861+03:00  INFO 17108 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-01T20:33:04.903+03:00  INFO 18556 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 18556 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
+2026-06-01T20:33:04.905+03:00  INFO 18556 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T20:33:05.367+03:00  INFO 18556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T20:33:05.413+03:00  INFO 18556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 4 JPA repository interfaces.
+2026-06-01T20:33:05.814+03:00  INFO 18556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-01T20:33:05.827+03:00  INFO 18556 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T20:33:05.827+03:00  INFO 18556 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-06-01T20:33:05.903+03:00  INFO 18556 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-06-01T20:33:05.907+03:00  INFO 18556 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-01T20:33:05.907+03:00  INFO 18556 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 978 ms
+2026-06-01T20:33:05.995+03:00  INFO 18556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T20:33:06.089+03:00  INFO 18556 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7019d619
+2026-06-01T20:33:06.090+03:00  INFO 18556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T20:33:06.111+03:00  INFO 18556 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01T20:33:06.137+03:00  INFO 18556 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-06-01T20:33:06.153+03:00  INFO 18556 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-01T20:33:06.299+03:00  INFO 18556 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T20:33:06.349+03:00  INFO 18556 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01T20:33:06.914+03:00  INFO 18556 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T20:33:07.076+03:00  INFO 18556 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:33:07.090+03:00  INFO 18556 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:33:07.270+03:00  INFO 18556 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T20:33:07.558+03:00  INFO 18556 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:33:07.559+03:00  INFO 18556 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:33:07.658+03:00  INFO 18556 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-01T20:33:08.260+03:00  INFO 18556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T20:33:08.266+03:00  INFO 18556 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.632 seconds (process running for 3.937)
+2026-06-01T20:33:10.868+03:00  INFO 18556 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01T20:33:10.868+03:00  INFO 18556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-01T20:33:10.869+03:00  INFO 18556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-01T20:33:14.267+03:00  INFO 18556 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@75689d9c, with id 1
+2026-06-01T20:33:14.268+03:00  INFO 18556 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@75689d9c, with id 1
+2026-06-01T20:33:14.271+03:00  INFO 18556 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@75689d9c, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:33:14.274+03:00  INFO 18556 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@75689d9c
+2026-06-01T20:33:14.274+03:00  INFO 18556 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@75689d9c, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:33:14.274+03:00  INFO 18556 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@75689d9c
+2026-06-01T20:33:17.421+03:00  INFO 18556 --- [http-nio-8080-exec-4] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@75689d9c, with id 1
+2026-06-01T20:33:17.421+03:00  INFO 18556 --- [http-nio-8080-exec-4] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@75689d9c, with id 1
+2026-06-01T20:33:17.424+03:00  INFO 18556 --- [http-nio-8080-exec-4] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@75689d9c, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:33:17.424+03:00  INFO 18556 --- [http-nio-8080-exec-4] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@75689d9c
+2026-06-01T20:33:17.424+03:00  INFO 18556 --- [http-nio-8080-exec-4] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@75689d9c, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:33:17.424+03:00  INFO 18556 --- [http-nio-8080-exec-4] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@75689d9c
+2026-06-01T20:33:22.169+03:00  WARN 18556 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:33:23.191+03:00  WARN 18556 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:33:24.212+03:00  WARN 18556 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:47:53.533+03:00  INFO 18556 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T20:47:53.573+03:00  INFO 18556 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-01T20:47:53.576+03:00  INFO 18556 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:47:53.578+03:00  INFO 18556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T20:47:53.579+03:00  INFO 18556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-01T20:47:55.624+03:00  INFO 18204 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 18204 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
+2026-06-01T20:47:55.626+03:00  INFO 18204 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T20:47:56.097+03:00  INFO 18204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T20:47:56.148+03:00  INFO 18204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 4 JPA repository interfaces.
+2026-06-01T20:47:56.557+03:00  INFO 18204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-01T20:47:56.564+03:00  INFO 18204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T20:47:56.564+03:00  INFO 18204 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-06-01T20:47:56.651+03:00  INFO 18204 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-06-01T20:47:56.654+03:00  INFO 18204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-01T20:47:56.654+03:00  INFO 18204 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1002 ms
+2026-06-01T20:47:56.745+03:00  INFO 18204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T20:47:56.835+03:00  INFO 18204 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f8ac8d5
+2026-06-01T20:47:56.836+03:00  INFO 18204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T20:47:56.858+03:00  INFO 18204 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01T20:47:56.884+03:00  INFO 18204 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-06-01T20:47:56.901+03:00  INFO 18204 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-01T20:47:57.058+03:00  INFO 18204 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T20:47:57.108+03:00  INFO 18204 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01T20:47:57.652+03:00  INFO 18204 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T20:47:57.808+03:00  INFO 18204 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:47:57.821+03:00  INFO 18204 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:47:57.990+03:00  INFO 18204 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T20:47:58.299+03:00  INFO 18204 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:47:58.300+03:00  INFO 18204 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:47:58.402+03:00  INFO 18204 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-01T20:47:58.932+03:00  INFO 18204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T20:47:58.938+03:00  INFO 18204 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.58 seconds (process running for 3.872)
+2026-06-01T20:48:06.330+03:00  INFO 18204 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01T20:48:06.330+03:00  INFO 18204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-01T20:48:06.331+03:00  INFO 18204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-01T20:48:08.936+03:00  INFO 18204 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@5f07df35, with id 1
+2026-06-01T20:48:08.936+03:00  INFO 18204 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@5f07df35, with id 1
+2026-06-01T20:48:08.939+03:00  INFO 18204 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@5f07df35, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:48:08.943+03:00  INFO 18204 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@5f07df35
+2026-06-01T20:48:08.943+03:00  INFO 18204 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@5f07df35, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:48:08.943+03:00  INFO 18204 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@5f07df35
+2026-06-01T20:48:10.045+03:00  INFO 18204 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@5f07df35, with id 1
+2026-06-01T20:48:10.046+03:00  INFO 18204 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@5f07df35, with id 1
+2026-06-01T20:48:10.048+03:00  INFO 18204 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@5f07df35, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:48:10.048+03:00  INFO 18204 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@5f07df35
+2026-06-01T20:48:10.049+03:00  INFO 18204 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@5f07df35, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:48:10.049+03:00  INFO 18204 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@5f07df35
+2026-06-01T20:48:17.239+03:00  WARN 18204 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:48:18.256+03:00  WARN 18204 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:48:19.267+03:00  WARN 18204 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:48:44.222+03:00  INFO 18204 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T20:48:44.263+03:00  INFO 18204 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-01T20:48:44.266+03:00  INFO 18204 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:48:44.267+03:00  INFO 18204 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T20:48:44.268+03:00  INFO 18204 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-01T20:48:46.311+03:00  INFO 18540 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 18540 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
+2026-06-01T20:48:46.312+03:00  INFO 18540 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T20:48:46.778+03:00  INFO 18540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T20:48:46.826+03:00  INFO 18540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 4 JPA repository interfaces.
+2026-06-01T20:48:47.232+03:00  INFO 18540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-01T20:48:47.245+03:00  INFO 18540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T20:48:47.245+03:00  INFO 18540 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-06-01T20:48:47.324+03:00  INFO 18540 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-06-01T20:48:47.327+03:00  INFO 18540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-01T20:48:47.327+03:00  INFO 18540 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 990 ms
+2026-06-01T20:48:47.420+03:00  INFO 18540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T20:48:47.513+03:00  INFO 18540 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d88ce0e
+2026-06-01T20:48:47.514+03:00  INFO 18540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T20:48:47.536+03:00  INFO 18540 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01T20:48:47.563+03:00  INFO 18540 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-06-01T20:48:47.580+03:00  INFO 18540 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-01T20:48:47.727+03:00  INFO 18540 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T20:48:47.775+03:00  INFO 18540 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01T20:48:48.313+03:00  INFO 18540 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T20:48:48.473+03:00  INFO 18540 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:48:48.486+03:00  INFO 18540 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:48:48.684+03:00  INFO 18540 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T20:48:49.012+03:00  INFO 18540 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:48:49.013+03:00  INFO 18540 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:48:49.131+03:00  INFO 18540 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-01T20:48:49.712+03:00  INFO 18540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T20:48:49.719+03:00  INFO 18540 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.671 seconds (process running for 3.966)
+2026-06-01T20:48:51.966+03:00  INFO 18540 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01T20:48:51.966+03:00  INFO 18540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-01T20:48:51.967+03:00  INFO 18540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-01T20:48:54.778+03:00  INFO 18540 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@b2a688d, with id 1
+2026-06-01T20:48:54.779+03:00  INFO 18540 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@b2a688d, with id 1
+2026-06-01T20:48:54.782+03:00  INFO 18540 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@b2a688d, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:48:54.785+03:00  INFO 18540 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@b2a688d
+2026-06-01T20:48:54.786+03:00  INFO 18540 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@b2a688d, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:48:54.786+03:00  INFO 18540 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@b2a688d
+2026-06-01T20:48:55.651+03:00  INFO 18540 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@b2a688d, with id 1
+2026-06-01T20:48:55.652+03:00  INFO 18540 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@b2a688d, with id 1
+2026-06-01T20:48:55.654+03:00  INFO 18540 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@b2a688d, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:48:55.654+03:00  INFO 18540 --- [http-nio-8080-exec-6] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@b2a688d
+2026-06-01T20:48:55.654+03:00  INFO 18540 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@b2a688d, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:48:55.654+03:00  INFO 18540 --- [http-nio-8080-exec-6] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@b2a688d
+2026-06-01T20:48:59.191+03:00 ERROR 18540 --- [http-nio-8080-exec-7] s.h.handler.ControllerExceptionHandler   : Failed to return response
+
+org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.handleParseFailure(StandardMultipartHttpServletRequest.java:125) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:112) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:112) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1228) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:633) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:411) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:331) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:380) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:208) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field image exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2629) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:2903) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.Request.getParameter(Request.java:1058) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:309) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at jakarta.servlet.ServletRequestWrapper.getParameter(ServletRequestWrapper.java:149) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest.getParameter(StrictHttpFirewall.java:779) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at jakarta.servlet.ServletRequestWrapper.getParameter(ServletRequestWrapper.java:149) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.security.web.csrf.CsrfTokenRequestHandler.resolveCsrfTokenValue(CsrfTokenRequestHandler.java:53) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.csrf.XorCsrfTokenRequestAttributeHandler.resolveCsrfTokenValue(XorCsrfTokenRequestAttributeHandler.java:72) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:121) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	... 12 common frames omitted
+Caused by: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field image exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106) ~[na:na]
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2588) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	... 63 common frames omitted
+
+2026-06-01T20:49:00.220+03:00 ERROR 18540 --- [http-nio-8080-exec-8] s.h.handler.ControllerExceptionHandler   : Failed to return response
+
+org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.handleParseFailure(StandardMultipartHttpServletRequest.java:125) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:112) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:112) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1228) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:633) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:411) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:331) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:380) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:208) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field image exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2629) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:2903) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.Request.getParameter(Request.java:1058) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:309) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at jakarta.servlet.ServletRequestWrapper.getParameter(ServletRequestWrapper.java:149) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest.getParameter(StrictHttpFirewall.java:779) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at jakarta.servlet.ServletRequestWrapper.getParameter(ServletRequestWrapper.java:149) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.security.web.csrf.CsrfTokenRequestHandler.resolveCsrfTokenValue(CsrfTokenRequestHandler.java:53) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.csrf.XorCsrfTokenRequestAttributeHandler.resolveCsrfTokenValue(XorCsrfTokenRequestAttributeHandler.java:72) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:121) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	... 12 common frames omitted
+Caused by: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field image exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106) ~[na:na]
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2588) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	... 63 common frames omitted
+
+2026-06-01T20:49:01.233+03:00 ERROR 18540 --- [http-nio-8080-exec-9] s.h.handler.ControllerExceptionHandler   : Failed to return response
+
+org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.handleParseFailure(StandardMultipartHttpServletRequest.java:125) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:112) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:112) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1228) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:633) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:411) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:331) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:380) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:208) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field image exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2629) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:2903) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.Request.getParameter(Request.java:1058) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:309) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at jakarta.servlet.ServletRequestWrapper.getParameter(ServletRequestWrapper.java:149) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest.getParameter(StrictHttpFirewall.java:779) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at jakarta.servlet.ServletRequestWrapper.getParameter(ServletRequestWrapper.java:149) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.security.web.csrf.CsrfTokenRequestHandler.resolveCsrfTokenValue(CsrfTokenRequestHandler.java:53) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.csrf.XorCsrfTokenRequestAttributeHandler.resolveCsrfTokenValue(XorCsrfTokenRequestAttributeHandler.java:72) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:121) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	... 12 common frames omitted
+Caused by: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field image exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106) ~[na:na]
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2588) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	... 63 common frames omitted
+
+2026-06-01T20:49:05.321+03:00  INFO 18540 --- [http-nio-8080-exec-10] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@b2a688d, with id 1
+2026-06-01T20:49:05.321+03:00  INFO 18540 --- [http-nio-8080-exec-10] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@b2a688d, with id 1
+2026-06-01T20:49:05.324+03:00  INFO 18540 --- [http-nio-8080-exec-10] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@b2a688d, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:49:05.324+03:00  INFO 18540 --- [http-nio-8080-exec-10] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@b2a688d
+2026-06-01T20:49:05.324+03:00  INFO 18540 --- [http-nio-8080-exec-10] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@b2a688d, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:49:05.324+03:00  INFO 18540 --- [http-nio-8080-exec-10] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@b2a688d
+2026-06-01T20:49:59.334+03:00  INFO 18540 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T20:49:59.375+03:00  INFO 18540 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-01T20:49:59.378+03:00  INFO 18540 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:49:59.379+03:00  INFO 18540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T20:49:59.380+03:00  INFO 18540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-01T20:50:01.413+03:00  INFO 6116 --- [main] spring.ApplicationRunner                 : Starting ApplicationRunner using Java 17.0.12 with PID 6116 (C:\Users\user\IdeaProjects\spring-starter\build\classes\java\main started by user in C:\Users\user\IdeaProjects\spring-starter)
+2026-06-01T20:50:01.415+03:00  INFO 6116 --- [main] spring.ApplicationRunner                 : No active profile set, falling back to 1 default profile: "default"
+2026-06-01T20:50:01.878+03:00  INFO 6116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-01T20:50:01.925+03:00  INFO 6116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 4 JPA repository interfaces.
+2026-06-01T20:50:02.337+03:00  INFO 6116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-01T20:50:02.350+03:00  INFO 6116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-01T20:50:02.350+03:00  INFO 6116 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-06-01T20:50:02.430+03:00  INFO 6116 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2026-06-01T20:50:02.432+03:00  INFO 6116 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-01T20:50:02.433+03:00  INFO 6116 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 995 ms
+2026-06-01T20:50:02.521+03:00  INFO 6116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-01T20:50:02.614+03:00  INFO 6116 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7b4b8199
+2026-06-01T20:50:02.615+03:00  INFO 6116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-01T20:50:02.636+03:00  INFO 6116 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-01T20:50:02.665+03:00  INFO 6116 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2026-06-01T20:50:02.683+03:00  INFO 6116 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-01T20:50:02.842+03:00  INFO 6116 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-01T20:50:02.890+03:00  INFO 6116 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-01T20:50:03.431+03:00  INFO 6116 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-01T20:50:03.585+03:00  INFO 6116 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:50:03.598+03:00  INFO 6116 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:50:03.781+03:00  INFO 6116 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-01T20:50:04.067+03:00  INFO 6116 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:50:04.068+03:00  INFO 6116 --- [main] s.d.repository.pool.ConnectionPool       : Init connection pool
+2026-06-01T20:50:04.165+03:00  INFO 6116 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-01T20:50:04.686+03:00  INFO 6116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-01T20:50:04.692+03:00  INFO 6116 --- [main] spring.ApplicationRunner                 : Started ApplicationRunner in 3.548 seconds (process running for 3.849)
+2026-06-01T20:50:08.349+03:00  INFO 6116 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-01T20:50:08.349+03:00  INFO 6116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-01T20:50:08.350+03:00  INFO 6116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-06-01T20:50:11.061+03:00  INFO 6116 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@6fc277e4, with id 1
+2026-06-01T20:50:11.061+03:00  INFO 6116 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@6fc277e4, with id 1
+2026-06-01T20:50:11.065+03:00  INFO 6116 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@6fc277e4, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:50:11.068+03:00  INFO 6116 --- [http-nio-8080-exec-5] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@6fc277e4
+2026-06-01T20:50:11.068+03:00  INFO 6116 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@6fc277e4, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:50:11.068+03:00  INFO 6116 --- [http-nio-8080-exec-5] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@6fc277e4
+2026-06-01T20:50:12.334+03:00  INFO 6116 --- [http-nio-8080-exec-3] spring.aop.FirstAspect                   : Invoke findById method in class spring.service.UserService@6fc277e4, with id 1
+2026-06-01T20:50:12.334+03:00  INFO 6116 --- [http-nio-8080-exec-3] spring.aop.SecondAspect                  : AROUND before - invoked findById method in class spring.service.UserService@6fc277e4, with id 1
+2026-06-01T20:50:12.337+03:00  INFO 6116 --- [http-nio-8080-exec-3] spring.aop.SecondAspect                  : AROUND after returning - invoked findById method in class spring.service.UserService@6fc277e4, result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:50:12.337+03:00  INFO 6116 --- [http-nio-8080-exec-3] spring.aop.SecondAspect                  : AROUND after (finally) - invoked findById method in class spring.service.UserService@6fc277e4
+2026-06-01T20:50:12.337+03:00  INFO 6116 --- [http-nio-8080-exec-3] spring.aop.FirstAspect                   : AfterReturning invoked findById method in class spring.service.UserService@6fc277e4, with result Optional[UserReadDto(id=1, username=ivan@gmail.com, password={noop}123, birthDate=1990-01-10, firstname=Ivan, lastname=Ivanov, role=ADMIN, image=null, company=CompanyReadDto[id=1, name=Google])]
+2026-06-01T20:50:12.337+03:00  INFO 6116 --- [http-nio-8080-exec-3] spring.aop.FirstAspect                   : After invoked findById method in class spring.service.UserService@6fc277e4
+2026-06-01T20:50:16.435+03:00  WARN 6116 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:50:17.462+03:00  WARN 6116 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2026-06-01T20:55:26.991+03:00  INFO 6116 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-01T20:55:27.031+03:00  INFO 6116 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-01T20:55:27.034+03:00  INFO 6116 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-01T20:55:27.035+03:00  INFO 6116 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-01T20:55:27.036+03:00  INFO 6116 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
